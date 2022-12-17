@@ -518,8 +518,11 @@ footer {
   background-color: black;
 }
 footer .box2 {
-  padding-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-left: 30px;
+  border: white solid 3px;
 }
 footer .box2 a {
   color: white;
